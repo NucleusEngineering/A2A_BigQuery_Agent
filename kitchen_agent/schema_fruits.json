@@ -1,0 +1,14 @@
+[
+    {
+      "name": "name",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": "This includes the name of the fruit"
+    },
+    {
+      "name": "quantity",
+      "type": "INTEGER",
+      "mode": "NULLABLE",
+      "description": "This includes the amount of fruit which are left."
+    }
+  ]

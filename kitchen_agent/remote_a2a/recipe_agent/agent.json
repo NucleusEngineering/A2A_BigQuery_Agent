@@ -1,0 +1,17 @@
+{
+  "capabilities": {},
+  "defaultInputModes": ["text/plain"],
+  "defaultOutputModes": ["text/plain"],
+  "description": "Agent that suggests 2 short recipes (200 words max each) based on a user input. One recipe is sweet and one is savory.",
+  "name": "recipe_agent",
+  "skills": [
+    {
+      "id": "recipe_creation",
+      "name": "Create a Recipe",
+      "description": "Provide a recipe based on user input",
+      "tags": ["creative", "cooking", "fruit", "vegetable", "recipe"]
+    }
+  ],
+  "url": "http://localhost:8001/a2a/recipe_agent",
+  "version": "1.0.0"
+}

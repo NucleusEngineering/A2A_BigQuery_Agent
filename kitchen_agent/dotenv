@@ -1,0 +1,8 @@
+# Google Cloud Vertex AI
+GOOGLE_GENAI_USE_VERTEXAI=TRUE
+GOOGLE_CLOUD_PROJECT="your-project-id"
+GOOGLE_CLOUD_LOCATION="your-region"
+
+#BigQuery Setup
+BIGQUERY_DATASET="your-dataset-name"
+BIGQUERY_TABLE="your-table-name" 
