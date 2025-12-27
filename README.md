@@ -30,3 +30,7 @@ The A2A-BigQuery-Agent ("`kitchen_agent`") consists of:
 - The root agent intelligently delegates tasks based on user requests
 - Provides clear workflow coordination between multiple agents
 
+---
+## Set up the agent
+Go to [SETUP.md](./SETUP.md) to start with necessary infrastructure and environment setups to run the agent.
+
