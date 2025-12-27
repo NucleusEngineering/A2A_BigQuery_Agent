@@ -16,7 +16,7 @@ In the newly opened browser window you can now ask the agent about inventory of 
 Ideally, the agent will route to the `check_inventory_agent` which will the call the `query_fruits` tool. 
 Try also what happens if you ask about a fruit which is not in the inventory (e.g. plum, papaya).
 
-![example_conversation_BigQuery_tool](./example_conversation_BigQuery_tool.png)
+![example_conversation_BigQuery_tool](./src/example_conversation_BigQuery_tool.png)
 
 ## 2. Let's try a recipe!
 
@@ -32,7 +32,7 @@ Failed to resolve AgentCard from URL http://localhost:8001/a2a/recipe_agent/.wel
 Network communication error fetching agent card from http://localhost:8001/a2a/recipe_agent/.well-known/agent-card.json: \
 All connection attempts failed
 ```
-![example_failed_A2A_Agent_response](./example_failed_A2A_Agent_response.png)
+![example_failed_A2A_Agent_response](./src/example_failed_A2A_Agent_response.png)
 
 ### So what happened?
 
@@ -42,7 +42,7 @@ Therefore, we at first have to:
 1. **initialize an A2A Server**
    * **In a new terminal window** run the following command:
      ```bash
-     adk api_server --a2a --port 8001 ./kitchen_agent/remote_a2a
+     adk api_server --a2a --port 8001 ./A2A_BigQuery_Agent/kitchen_agent/remote_a2a
      ```
  2. **Restart the agent**
    * **In your other terminal window** run the following command:
@@ -52,7 +52,7 @@ Therefore, we at first have to:
 
 Now, try prompting for fruits and recipes again. This time you should receive an answer from the `recipe_agent`.
 
-![example_conversation_A2A_agent](./example_conversation_A2A_agent.png)
+![example_conversation_A2A_agent](./src/example_conversation_A2A_agent.png)
 
 
 

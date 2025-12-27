@@ -25,7 +25,7 @@ To start testing the agent this project requires specific GCP infrastructure set
         ```bash
         cp dotenv .env
         ```
-    *   Edit the newly created `.env` file and fill in your `GOOGLE_CLOUD_PROJECT` and `GOOGLE_CLOUD_LOCATION`. The other variables should stay unchanged.
+    *   Edit the newly created `.env` file and fill in your `GOOGLE_CLOUD_PROJECT` and `GOOGLE_CLOUD_LOCATION`. For location you can use any, for example `us-central1`. The other variables should stay unchanged.
 
 2.  **Authenticate Google Cloud CLI**:
     *   Log in to your Google Cloud account:
