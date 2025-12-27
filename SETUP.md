@@ -11,10 +11,10 @@ Before you begin, ensure you have the following tools installed:
 ## 2. Initial Setup
 
 **Clone the Repository**:
-    ```bash
-    git clone https://github.com/NucleusEngineering/A2A_BigQuery_Agent.git
-    cd A2A_BigQuery_Agent/kitchen_agent
-    ```
+```bash
+git clone https://github.com/NucleusEngineering/A2A_BigQuery_Agent.git
+cd A2A_BigQuery_Agent/kitchen_agent
+```
 
 ## 3. Google Cloud Infrastructure & Environment Variable Setup
 
@@ -69,7 +69,7 @@ To start testing the agent this project requires specific GCP infrastructure set
         ```
 
 ---
-##Great! Your setup is complete.
+## Great! Your setup is complete.
 Go to TUTORIAL.md to run the agent.
         
         
