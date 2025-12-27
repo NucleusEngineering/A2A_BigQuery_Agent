@@ -4,7 +4,7 @@ This sample demonstrates the **Agent-to-Agent (A2A)** architecture in the Agent 
 
 ## Overview
 
-The A2A BigQuery Agent consists of:
+The A2A-BigQuery-Agent ("`kitchen_agent`") consists of:
 
 - **Root Agent** (`root_agent`): The main orchestrator that delegates tasks to specialized sub-agents
 - **Check Inventory Agent** (`check_inventory_agent`): A local sub-agent that is connected to BigQuery as a tool and can query a fruit inventory table based on a user's prompt
