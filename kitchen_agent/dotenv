@@ -3,6 +3,6 @@ GOOGLE_GENAI_USE_VERTEXAI=TRUE
 GOOGLE_CLOUD_PROJECT="your-project-id"
 GOOGLE_CLOUD_LOCATION="your-region"
 
-#BigQuery Setup
-BIGQUERY_DATASET="your-dataset-name"
-BIGQUERY_TABLE="your-table-name" 
+#BigQuery Setup - these are default names with which the BigQuery dataset & table willbe created.
+BIGQUERY_DATASET="kitchen_inventory"
+BIGQUERY_TABLE="fruits" 
