@@ -36,6 +36,23 @@ All connection attempts failed
 
 ### So what happened?
 
+Currently we are interacting with the local agent. we haven't yet initialized any A2A server on which our remote agent, which checks the recipes is running.
+Therefore, we at first have to:
+
+1. **initialize an A2A Server**
+   * **In a new terminal window** run the following command:
+     ```bash
+     adk api_server --a2a --port 8001 ./kitchen_agent/remote_a2a
+     ```
+ 2. **Restart the agent**
+   * **In your other terminal window** run the following command:
+     ```bash
+     adk web
+     ```
+
+Now, try prompting for fruits and recipes again. This time you should receive an answer from the `recipe_agent`.
+
+![example_conversation_A2A_agent](./example_conversation_A2A_agent.png)
 
 
 
