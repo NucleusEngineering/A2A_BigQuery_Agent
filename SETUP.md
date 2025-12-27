@@ -70,6 +70,6 @@ To start testing the agent this project requires specific GCP infrastructure set
 
 ---
 ## Great! Your setup is complete.
-Go to TUTORIAL.md to run the agent.
+Go to [TUTORIAL.md](./TUTORIAL.md) to run the agent.
         
         
