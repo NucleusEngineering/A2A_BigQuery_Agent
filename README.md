@@ -12,7 +12,7 @@ The A2A-BigQuery-Agent ("`kitchen_agent`") consists of:
 
 ## Architecture
 
-add image of agent architecture here
+![agent_archietcture](./agent_architecture.png)
 
 ## Key Features
 
